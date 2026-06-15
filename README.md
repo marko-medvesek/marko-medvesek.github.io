@@ -86,7 +86,6 @@ Možne nadgradnje:
 - iskanje po lokaciji ali cestnem odseku,
 - opozorila za izbrane poti,
 - objava kot PWA aplikacija,
-- objava projekta na GitHub Pages.
 
 ## Viri
 
