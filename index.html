@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DARS kamere v zivo</title>
+    <title>DARS kamere v živo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="app-header">
         <div class="header-copy">
             <p class="eyebrow">DARS kamere</p>
-            <h1>Prometne kamere v zivo</h1>
-            <p class="summary">DARS kamere po regijah, regijske kamere loceno, osvezitev po viru.</p>
+            <h1>Prometne kamere v živo</h1>
+            <p class="summary">DARS kamere po regijah, regijske kamere ločeno, osvežitev po viru.</p>
         </div>
         <div class="header-actions">
             <div class="live-status" aria-live="polite">
                 <span class="status-dot" aria-hidden="true"></span>
-                <span id="lastUpdated">Osvezuje se...</span>
+                <span id="lastUpdated">Osvežuje se...</span>
             </div>
             <button class="pause-button" type="button" id="pauseRefresh" aria-pressed="false">Premor</button>
         </div>
@@ -26,7 +26,7 @@
         <section class="toolbar" aria-label="Izbira avtoceste">
             <div class="road-tabs" id="roadTabs"></div>
             <label class="search-field">
-                <span>Isci</span>
+                <span>Išči</span>
                 <input id="searchInput" type="search" placeholder="Kamera ali smer">
             </label>
         </section>
@@ -55,14 +55,14 @@
             </div>
 
             <div class="modal-stage">
-                <button class="gallery-button previous" type="button" id="previousCamera" aria-label="Prejsnja kamera">&lsaquo;</button>
+                <button class="gallery-button previous" type="button" id="previousCamera" aria-label="Prejšnja kamera">&lsaquo;</button>
                 <img id="modalImage" src="" alt="">
                 <button class="gallery-button next" type="button" id="nextCamera" aria-label="Naslednja kamera">&rsaquo;</button>
             </div>
 
             <div class="modal-footer">
                 <span id="modalCounter"></span>
-                <span>Osvezitev vsako sekundo</span>
+                <span>Osvežitev vsako sekundo</span>
             </div>
         </div>
     </div>
