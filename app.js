@@ -327,13 +327,13 @@ function refreshModalImage(now = Date.now()) {
 
 function updateRefreshStatus() {
     if (state.isPaused) {
-        lastUpdated.textContent = "Osvezevanje je ustavljeno";
+        lastUpdated.textContent = "Osveževanje je ustavljeno";
         return;
     }
 
     const visibleCount = state.visibleImages.size;
     const cameraLabel = visibleCount === 1 ? "kamera" : visibleCount === 2 ? "kameri" : visibleCount < 5 ? "kamere" : "kamer";
-    lastUpdated.textContent = `Osvezeno ${new Date().toLocaleTimeString("sl-SI")} (${visibleCount} ${cameraLabel})`;
+    lastUpdated.textContent = `Osveženo ${new Date().toLocaleTimeString("sl-SI")} (${visibleCount} ${cameraLabel})`;
 }
 
 function setPaused(isPaused) {
